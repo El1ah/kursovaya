@@ -1,0 +1,43 @@
+.section-top{
+    height: 100vh;
+    min-height: 600px;
+    background: url(../img/section-top/bg.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 100px 0;
+}
+
+.section-top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+.section-top_container {
+    position: relative;
+    width: 520px;
+}
+.section-top_info {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: rgb(117, 0, 250);
+    margin: 0 0 15px;
+}
+.section-top_title {
+    font-size: 55;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 20px;
+}
+
+
+ 

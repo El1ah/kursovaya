@@ -1,0 +1,31 @@
+.section-about {
+    background: linear-gradient(90deg, rgba(35,1,23,1) 0%, rgba(249,18,171,1) 49%, rgba(35,1,23,1) 100%);
+    color: #fff;
+    position: relative;
+}
+
+.section-about_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-about_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-about_content {
+    width: 50%;
+    padding-left: 80px;
+}
+
+.section-about_text{
+    font-size: 18px;
+    line-height: 1.70;
+    margin: 0;
+}
